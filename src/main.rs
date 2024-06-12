@@ -138,6 +138,7 @@ fn main() {
         let mut choice = String::new();
         io::stdin().read_line(&mut choice).expect("Failed to read line");
         let choice = choice.trim();
+        clear_screen();
 
         match choice {
             "1" => {
